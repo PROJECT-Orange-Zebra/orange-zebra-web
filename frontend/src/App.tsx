@@ -1,11 +1,29 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
+import Home from "./Home/Home";
+import Products from "./Products/Products";
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
+    
+    <Router>
+      <div className="App">
+        <div className="grid-container">
+          <header className= "header"> 
+
+<link rel = "stylesheet" href= "style.css" />
+<title> Orange Zebra</title>
+
+<div className= "header-links">
+	<Link to="/">Home</Link>
+	<Link to="/catalog">Catalog</Link>
+</div>
+</header>
+  </div>
+      {/* <header className="App-header"> </header> */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -18,9 +36,17 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      
+      <main className="main">
+	      <Routes>
+      	<Route path="/" element={<Home />} />
+      	<Route path="/catalog" element={<Products />} />
+	      </Routes>
+    	</main>
     </div>
+    </Router>
   );
+
 }
 
 export default App;
