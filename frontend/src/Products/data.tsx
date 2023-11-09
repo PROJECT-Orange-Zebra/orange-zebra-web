@@ -1,0 +1,50 @@
+export default {
+    products: [{
+        name: 'Shirt',
+        imageUrl: '/Users/neelbhanvadia/Orange Zebra/orange-zebra-web/frontend/public/Images/d1.jpg',
+        price: 60,
+        brand: 'Nike',
+        rating: 4.5,
+        numberOfReviews: 10,  
+    },
+    {
+        name: 'Shirt',
+        imageUrl: '/Users/neelbhanvadia/Orange Zebra/orange-zebra-web/frontend/public/Images/d1.jpg',
+        price: 60,
+        brand: 'Nike',
+        rating: 4.5,
+        numberOfReviews: 10,
+    },
+    {
+        name: 'Shirt',
+        imageUrl: '/Users/neelbhanvadia/Orange Zebra/orange-zebra-web/frontend/public/Images/d1.jpg',
+        price: 60,
+        brand: 'Nike',
+        rating: 4.5,
+        numberOfReviews: 10,
+    },
+    {
+        name: 'Shirt',
+        imageUrl: '/Users/neelbhanvadia/Orange Zebra/orange-zebra-web/frontend/public/Images/d1.jpg',
+        price: 60,
+        brand: 'Nike',
+        rating: 4.5,
+        numberOfReviews: 10,
+    },
+    {
+        name: 'Shirt',
+        imageUrl: '/Users/neelbhanvadia/Orange Zebra/orange-zebra-web/frontend/public/Images/d1.jpg',
+        price: 60,
+        brand: 'Nike',
+        rating: 4.5,
+        numberOfReviews: 10,
+    },
+    {
+        name: 'Shirt',
+        imageUrl: '/Users/neelbhanvadia/Orange Zebra/orange-zebra-web/frontend/public/Images/d1.jpg',
+        price: 60,
+        brand: 'Nike',
+        rating: 4.5,
+        numberOfReviews: 10,
+    }]
+}
