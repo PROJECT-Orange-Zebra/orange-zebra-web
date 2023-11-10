@@ -8,7 +8,7 @@ function Products() {
                     <li>
                       <div className="product">
                         <img
-                            className="product-iamge"
+                            className="product-image"
                             src={product.imageUrl}
                             alt="product"
                         />

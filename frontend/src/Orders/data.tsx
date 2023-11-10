@@ -17,11 +17,11 @@ export default {
         totalPrice: 42.90,
         user: {
             name: 'Pedro'
-        }
+        },
         isPaid: true,
         paidAt: '02/14/2021',
         isDelivered: false,
-        deliveredDate: null,
+        deliverableDate: null,
     },
     {
         _id: 3,
