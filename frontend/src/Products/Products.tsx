@@ -19,7 +19,7 @@ function Products() {
     = useState(emptyProducts);
 
     useEffect(() => {
-		axios.get<Product[]>("https://localhost:7250/catalog",
+		axios.get<Product[]>("https://orange-zebra-api.azurewebsites.net/catalog",
 			{
 				headers: {
 					"Content-Type": "application/json",
